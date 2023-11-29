@@ -1,0 +1,133 @@
+.form-container {
+  box-sizing: border-box;
+  width: 40%;
+  height: 80%;
+  background-color: #fceadb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Form*/
+.login-form-container {
+  width: 80%;
+  height: 70%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-form-container > p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #343617;
+  margin-bottom: 10px;
+}
+.login-form {
+  width: 100%;
+  height: 80%;
+}
+.signup-form {
+  height: 85%;
+}
+.login-form > div {
+  height: 100px;
+}
+.login-form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  background-color: #fceadb;
+  border: 1px solid #bab27187;
+  border-radius: 5px;
+}
+.login-form button {
+  color: #343617;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  background: #c4b84e;
+  border: none;
+  cursor: pointer;
+}
+.login-form button:hover {
+  opacity: 0.8;
+}
+.form-error {
+  padding-top: 5px;
+  font-size: 0.8rem;
+  color: rgb(179, 16, 16);
+}
+.name-role {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+.name-field {
+  width: 60%;
+}
+.role-field {
+  width: 30%;
+}
+
+/* change Password Form */
+.password-form-container {
+  width: 25%;
+  height: 80%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.password-form-upper {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.password-form-upper img {
+  width: 100px;
+  height: 100px;
+}
+.password-form-upper p {
+  color: #242222a7;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.password-form-body {
+  width: 65%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.password-form-body .fields {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.password-form-body input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 10px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.263);
+  border-radius: 5px;
+}
+.password-form-body button {
+  padding: 12px 15px;
+  border: none;
+  background-color: #58c994;
+  border-radius: 5px;
+  margin-top: 10px;
+}
