@@ -1,0 +1,92 @@
+.create-project-container {
+  margin-top: 20px;
+  width: 80%;
+  height: 60%;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.create-project-center,
+.create-project-upper,
+.create-project-lower {
+  width: 100%;
+}
+.create-project-upper {
+  box-sizing: border-box;
+  height: 15%;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  border-bottom: 2px solid #2f2f51;
+}
+.create-project-upper > p {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+.create-project-center {
+  height: 70%;
+}
+.create-project-center input,
+.create-project-center textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 15px;
+  border: none;
+  resize: none;
+}
+.create-project-center textarea {
+  height: 90%;
+}
+.create-project-center input {
+  height: 75%;
+  font-weight: bold;
+}
+.create-project-center .title-div {
+  box-sizing: border-box;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: 1px solid gray;
+}
+.create-project-center > div > p {
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  padding-left: 15px;
+  color: red;
+}
+.desc-div > p {
+  height: 10%;
+}
+.title-div > p {
+  height: 25%;
+}
+.create-project-center .desc-div {
+  height: 80%;
+  border-bottom: 1px solid gray;
+}
+
+.create-project-lower {
+  box-sizing: border-box;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #2f2f51;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.create-project-lower:hover {
+  color: #58c994;
+}
+.create-project-lower > p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
